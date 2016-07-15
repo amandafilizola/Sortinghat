@@ -1,9 +1,11 @@
-#include <stdio.h>
-#include <stdlib.h>
 /*
 Autora: Amanda de Paiva Filizola
 The Sorting Hat
 */
+
+#include <stdio.h>
+#include <stdlib.h>
+
 int main(void)
 {
 
