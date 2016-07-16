@@ -8,5 +8,7 @@ The Sorting Hat
 
 int main(void)
 {
+    int x;
+    printf ("  ");
 
 }
