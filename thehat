@@ -9,6 +9,6 @@ The Sorting Hat
 int main(void)
 {
     int x;
-    printf ("  ");
+    printf("Você está começando o questionário para determinar sua Casa. Responda o mais honestamente possível./n");
 
 }
