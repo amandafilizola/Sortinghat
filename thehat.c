@@ -13,7 +13,7 @@ int main(void)
 
     /*comeco do questionario*/
     /*pergunta 1 */
-    printf("Qual a caracteristica que voce mais preza:\n");
+    printf("Qual as caracteristicas que voce mais preza:\n");
     pritnf("1.Coragem e cavalheirismo.\n");
     printf("2.Lealdade e justica.\n");
     printf("3.Inteligencia e criatividade.\n");
