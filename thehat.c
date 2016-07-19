@@ -8,7 +8,7 @@ The Sorting Hat
 
 int main(void)
 {
-    int x;
+    int x,g,s,r,h;
     printf("Voce esta comecando o questionario para determinar sua Casa. Responda o mais honestamente possivel, pois do contrario, recebera uma Casa na qual nao se encaixa./nDigite o numero da resposta escolhida e pressione <enter>.");
 
     /*comeco do questionario*/
@@ -18,5 +18,14 @@ int main(void)
     printf("2.Lealdade.\n");
     printf("3.Inteligencia.\n");
     printf("4.Astúcia.\n");
+    scanf("%d",&x);
+    if(x==1)
+        g+10;
+    if(x==2)
+        h+10;
+    if(x==3)
+        r+10;
+    if(x==4)
+        s+10;
 
 }
