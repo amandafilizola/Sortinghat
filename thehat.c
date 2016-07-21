@@ -94,6 +94,10 @@ int main(void)
     if(x==2)
         s+15;
 
+    /*pergunta 6*/
+    printf("Estudar é o que para você?\n\n");
+    printf("1.Mais prazeroso quando se está com amigos.\n");
+    printf("2.Uma etapa para cumprir antes de tentar voos mais altos.\n");
 
 
 }    
