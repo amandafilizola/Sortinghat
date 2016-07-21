@@ -98,6 +98,16 @@ int main(void)
     printf("Estudar é o que para você?\n\n");
     printf("1.Mais prazeroso quando se está com amigos.\n");
     printf("2.Uma etapa para cumprir antes de tentar voos mais altos.\n");
-    printf("3.Um prazer para mim.\n");
+    printf("3.Um prazer para mim aprender coisas novas.\n");
     printf("4.Algo que pessoas comuns precisam fazer para ganhar a vida.\n");
+
+    scanf("%d",&x);
+    if(x==1)
+        g+10;
+    if(x==4)
+        h+10;
+    if(x==3)
+        r+10;
+    if(x==2)
+        s+20;
 }    
