@@ -20,13 +20,13 @@ int main(void)
     printf("4.Astúcia e determinacao.\n");
     scanf("%d",&x);
     if(x==1)
-        g+10;
+        g+20;
     if(x==2)
-        h+10;
+        h+20;
     if(x==3)
-        r+10;
+        r+20;
     if(x==4)
-        s+10;
+        s+20;
 
     /*pergunta 2*/
     printf("O que voce mais espera fazer no primeiro dia de aula?\n");
