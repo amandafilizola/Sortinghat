@@ -44,5 +44,11 @@ int main(void)
     if(x==4)
         s+10;
 
+    /*pergunta 3*/
+    printf("É fácil começar uma amizade com voce?\n");
+    printf("1.Sim, mas acho que precisamos conversar bastante primeiro.\n");
+    printf("2.Com certeza!Estou sempre pronto para novas amizades.\n");
+    printf("3.Talvez. A pessoa so precisa ter as qualidades certas e nao ser apenas perda do meu tempo.\n");
+    printf("4.Talvez. Um bom jeito de comecar e me pedir ajuda com atividades que sou bom.\n");
 
 }    
