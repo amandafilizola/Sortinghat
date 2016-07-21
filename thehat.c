@@ -62,19 +62,19 @@ int main(void)
 
     /*pergunta 4*/
     printf("Voce tem inimizades na sua escola ou trabalho?\n\n");
-    printf("Sim. Nao me orgulho disto porem sempre rola uma rixa com outras turmas.\n");
-    printf("Nao.O que vem de baixo nao pode me atingir.\n");
-    printf("Evito conflitos. Sou muito 'na minha'.\n");
-    printf("Detesto brigas e evito conflitos!Tem gente que me acha bobo por isso, porem nao ligo.");
-    
+    printf("1.Sim. Nao me orgulho disto porem sempre rola uma rixa com outras turmas.\n");
+    printf("2.Detesto brigas e evito conflitos!Tem gente que me acha bobo por isso, porem nao ligo.");
+    printf("3.Evito conflitos. Sou muito 'na minha'.\n");
+    printf("4.Nao.O que vem de baixo nao pode me atingir.\n");
+  
     scanf("%d",&x);
     if(x==1)
         g+10;
-    if(x==4)
+    if(x==2)
         h+20;
     if(x==3)
         r+10;
-    if(x==2)
+    if(x==4)
         s+10;
     
     /*pergunta 5*/
@@ -83,5 +83,17 @@ int main(void)
     printf("2.Converso com ele na mesma hora, dou risadas e faço o melhor para deixa-lo a vontade. todo mundo e bem-vindo!\n");
     printf("3.Ofereço ajuda em alguma materia e digo tudo o que sei sobre a escola e seus professores.\n");
     printf("4.Ignoro-o a principio. Se ele valer a pena, me aproximo.\n");
+
+    scanf("%d",&x);
+    if(x==1)
+        g+15;
+    if(x==4)
+        h+20;
+    if(x==3)
+        r+15;
+    if(x==2)
+        s+15;
+
+
 
 }    
