@@ -110,4 +110,7 @@ int main(void)
         r+10;
     if(x==2)
         s+20;
+
+    /*pergunta 7*/
+    printf("
 }    
