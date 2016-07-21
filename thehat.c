@@ -99,5 +99,5 @@ int main(void)
     printf("1.Mais prazeroso quando se está com amigos.\n");
     printf("2.Uma etapa para cumprir antes de tentar voos mais altos.\n");
     printf("3.Um prazer para mim.\n");
-
+    printf("4.Algo que pessoas comuns precisam fazer para ganhar a vida.\n");
 }    
