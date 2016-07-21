@@ -27,10 +27,22 @@ int main(void)
         r+10;
     if(x==4)
         s+10;
+
     /*pergunta 2*/
-    printf("O que voce mais espera fazer no primeiro dia de aula?");
-    printf("1.Reecontrar minha turma e contar tudo sobre as ferias.");
-    printf("2.Conhecer gente nova e fazer amizades.");
-    printf("3.Aproveitar tudo que a escola oferece e estudar bastante.");
-    printf("4.Exibir o material novo e minhas roupas novas para meus amigos(as).");
-}
+    printf("O que voce mais espera fazer no primeiro dia de aula?\n");
+    printf("1.Reecontrar minha turma e contar tudo sobre as ferias.\n");
+    printf("2.Conhecer gente nova e fazer amizades.\n");
+    printf("3.Aproveitar tudo que a escola oferece e estudar bastante.\n");
+    printf("4.Exibir o material novo e minhas roupas novas para meus amigos(as).\n");
+    scanf("%d",&x);
+    if(x==1)
+        g+10;
+    if(x==2)
+        h+10;
+    if(x==3)
+        r+10;
+    if(x==4)
+        s+10;
+
+
+}    
