@@ -50,5 +50,13 @@ int main(void)
     printf("2.Com certeza!Estou sempre pronto para novas amizades.\n");
     printf("3.Talvez. A pessoa so precisa ter as qualidades certas e nao ser apenas perda do meu tempo.\n");
     printf("4.Talvez. Um bom jeito de comecar e me pedir ajuda com atividades que sou bom.\n");
-
+    scanf("%d",&x);
+    if(x==1)
+        g+5;
+    if(x==2)
+        h+10;
+    if(x==3)
+        r+10;
+    if(x==4)
+        s+10;
 }    
