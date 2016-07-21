@@ -112,5 +112,6 @@ int main(void)
         s+20;
 
     /*pergunta 7*/
-    printf("
+    printf("Como você se vê no futuro?\n\n");
+
 }    
