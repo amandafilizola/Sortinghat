@@ -78,5 +78,7 @@ int main(void)
         s+10;
     
     /*pergunta 5*/
-
+    printf("Um aluno novo e timido entrou na sala. Como voce procede para integra-lo a turma?\n\n");
+    printf("1.Procuro pontos em comum com ele e me apresento fazendo uma piadinha.\n");
+    printf("2.Converso com ele na mesma hora, dou risadas e faço o melhor para deixa-lo a vontade. todo mundo e bem-vindo!\n");
 }    
