@@ -9,11 +9,11 @@ The Sorting Hat
 int main(void)
 {
     int x,g,s,r,h;
-    printf("Voce esta comecando o questionario para determinar sua Casa. Responda o mais honestamente possivel, pois do contrario, recebera uma Casa na qual nao se encaixa./nDigite o numero da resposta escolhida e pressione <enter>.");
+    printf("Voce esta comecando o questionario para determinar sua Casa. Responda o mais honestamente possivel, pois do contrario, recebera uma Casa na qual nao se encaixa.\nDigite o numero da resposta escolhida e pressione <enter>.");
 
     /*comeco do questionario*/
     /*pergunta 1 */
-    printf("Qual as caracteristicas que voce mais preza:\n");
+    printf("Qual as caracteristicas que voce mais preza:\n\n");
     pritnf("1.Coragem e cavalheirismo.\n");
     printf("2.Lealdade e justica.\n");
     printf("3.Inteligencia e criatividade.\n");
@@ -29,7 +29,7 @@ int main(void)
         s+20;
 
     /*pergunta 2*/
-    printf("O que voce mais espera fazer no primeiro dia de aula?\n");
+    printf("O que voce mais espera fazer no primeiro dia de aula?\n\n");
     printf("1.Reecontrar minha turma e contar tudo sobre as ferias.\n");
     printf("2.Conhecer gente nova e fazer amizades.\n");
     printf("3.Aproveitar tudo que a escola oferece e estudar bastante.\n");
@@ -45,7 +45,7 @@ int main(void)
         s+10;
 
     /*pergunta 3*/
-    printf("É fácil começar uma amizade com voce?\n");
+    printf("É fácil começar uma amizade com voce?\n\n");
     printf("1.Sim, mas acho que precisamos conversar bastante primeiro.\n");
     printf("2.Com certeza!Estou sempre pronto para novas amizades.\n");
     printf("3.Talvez. A pessoa so precisa ter as qualidades certas e nao ser apenas perda do meu tempo.\n");
@@ -61,5 +61,20 @@ int main(void)
         s+10;
 
     /*pergunta 4*/
+    printf("Voce tem inimizades na sua escola ou trabalho?\n\n");
+    printf("Sim. Nao me orgulho disto porem sempre rola uma rixa com outras turmas.\n");
+    printf("Nao.O que vem de baixo nao pode me atingir.\n");
+    printf("Evito conflitos. Sou muito 'na minha'.\n");
+    printf("Detesto brigas e evito conflitos!Tem gente que me acha bobo por isso, porem nao ligo.");
+    
+    scanf("%d",&x);
+    if(x==1)
+        g+10;
+    if(x==4)
+        h+20;
+    if(x==3)
+        r+10;
+    if(x==2)
+        s+10;
 
 }    
