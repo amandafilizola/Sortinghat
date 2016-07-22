@@ -116,4 +116,5 @@ int main(void)
     printf("1.Trabalhando em algo que seja minha paixao, mesmo que exija muito de mim.\n");
     printf("2.em um emprego que me de serenidade e satisfacao.\n");
     printf("3.Estudando, me dedicando e encarando desafios sempre.\n");
+    printf("4.Um empresário de sucesso com muito dinheiro.\n");
 }    
