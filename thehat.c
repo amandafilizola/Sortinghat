@@ -109,7 +109,7 @@ int main(void)
     if(x==3)
         r+10;
     if(x==2)
-        s+20;
+        s+10;
 
     /*pergunta 7*/
     printf("Como você se vê no futuro?\n\n");
@@ -117,4 +117,14 @@ int main(void)
     printf("2.em um emprego que me de serenidade e satisfacao.\n");
     printf("3.Estudando, me dedicando e encarando desafios sempre.\n");
     printf("4.Um empresário de sucesso com muito dinheiro.\n");
+
+    scanf("%d",&x);
+    if(x==1)
+        g+15;
+    if(x==4)
+        h+15;
+    if(x==3)
+        r+15;
+    if(x==2)
+        s+20;
 }    
