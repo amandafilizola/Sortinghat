@@ -113,5 +113,7 @@ int main(void)
 
     /*pergunta 7*/
     printf("Como você se vê no futuro?\n\n");
+    printf("1.Trabalhando em algo que seja minha paixao, mesmo que exija muito de mim.\n");
+    printf("2.Estudando, me dedicando e encarando desafios sempre.\n");
 
 }    
