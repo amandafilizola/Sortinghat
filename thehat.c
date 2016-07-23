@@ -130,6 +130,8 @@ int main(void)
 
     /*pergunta 8*/
     printf("Sua casa está em chamas. Qual a única coisa que voce salva?\n\n");
-    printf("1.Seu animal de estimacao.\n");
+    printf("1.Seu instrumento musical.\n");
+    printf("2.Seu animal de estimacao.\n");
+
   
 }    
