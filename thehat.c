@@ -133,6 +133,15 @@ int main(void)
     printf("1.Seu instrumento musical.\n");
     printf("2.Seu animal de estimacao.\n");
     printf("3.Seu livro favorito.\n");
-
+    printf("4.Uma heranca de familia preciosa de geracoes.\n");
   
+    scanf("%d",&x);
+    if(x==1)
+        g+10;
+    if(x==4)
+        h+10;
+    if(x==3)
+        r+10;
+    if(x==2)
+        s+10;
 }    
