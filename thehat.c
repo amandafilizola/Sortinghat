@@ -127,4 +127,9 @@ int main(void)
         r+15;
     if(x==2)
         s+20;
+
+    /*pergunta 8*/
+    printf("Sua casa está em chamas. Qual a única coisa que voce salva?\n\n");
+    printf("1.Seu animal de estimacao.\n");
+  
 }    
