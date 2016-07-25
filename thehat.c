@@ -144,6 +144,7 @@ int main(void)
         r+10;
     iif(x==4)
         s+10;
+
     /*pergunta 9*/
     printf("Voce ve uma carteira enquanto caminha na rua. Contem dinheiro porem nenhum tipo de idetificacao. Nao tem ninguem a vista.\n\n");
     printf("1.Voce deixa a carteira onde esta. Alguem provavelmente esta procurando por ela.\n");
@@ -160,5 +161,7 @@ int main(void)
         r+10;
     iif(x==2)
         s+10;
+
     /*pergunta 10*/
+    printf("Uma crianca acusa voce, na frente de um bocado de pessoas,de roubar o brinquedo dela(o que voce nao fez).. Voce é duas vezes o tamanho dela porem ela nao desiste.");
 }    
