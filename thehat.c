@@ -125,7 +125,7 @@ int main(void)
         h+15;
     if(x==3)
         r+15;
-    if(x==2)
+    if(x==4)
         s+20;
 
     /*pergunta 8*/
