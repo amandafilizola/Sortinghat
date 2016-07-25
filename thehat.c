@@ -160,4 +160,5 @@ int main(void)
         r+10;
     iif(x==2)
         s+10;
+    /*pergunta 10*/
 }    
