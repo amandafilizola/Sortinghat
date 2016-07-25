@@ -138,11 +138,11 @@ int main(void)
     scanf("%d",&x);
     if(x==1)
         g+10;
-    if(x==4)
+    if(x==2)
         h+10;
     if(x==3)
         r+10;
-    iif(x==2)
+    iif(x==4)
         s+10;
     /*pergunta 9*/
     printf("Voce ve uma carteira enquanto caminha na rua. Contem dinheiro porem nenhum tipo de idetificacao. Nao tem ninguem a vista.\n\n");
@@ -150,4 +150,14 @@ int main(void)
     printf("2.Pega o dinheiro. Voce nao sabe a quem pertence, entao \"achado nao e roubado\".\n ");
     printf("3.Leva ate a policia caso alguem reporte a perda.\n");
     printf("4.Pega carteira e anda pela area perguntando se alguem perdeu a carteira recentemente.\n");
+
+    scanf("%d",&x);
+    if(x==4)
+        g+10;
+    if(x==3)
+        h+10;
+    if(x==1)
+        r+10;
+    iif(x==2)
+        s+10;
 }    
