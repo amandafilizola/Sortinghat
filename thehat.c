@@ -145,4 +145,6 @@ int main(void)
     iif(x==2)
         s+10;
     /*pergunta 9*/
+    printf("Voce ve uma carteira enquanto caminha na rua. Contem dinheiro porem nenhum tipo de idetificacao. Nao tem ninguem a vista.\n\n");
+    printf("1.Voce deixa a carteira onde esta.\n");
 }    
