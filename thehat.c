@@ -167,4 +167,5 @@ int main(void)
     printf("1.Explica para a crianca que nao pegou o brinquedo e direciona para alguem que possa ajudar.\n");
     printf("2.Explica para a crianca que voce nao pegou o brinquedo e oferece para ajudar a encontrar a pessoa que pegou.\n");
     printf("3.Explica para a crianca que nao foi voce quem pegou e se recusa a brigar com ela mesmo que ela tente lhe agredir.\n");
+    printf("4.Explica a crianca que nao pegou o brinquedo e avisa para deixa-lo em paz.\n");
 }    
