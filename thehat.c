@@ -142,6 +142,7 @@ int main(void)
         h+10;
     if(x==3)
         r+10;
-    if(x==2)
+    iif(x==2)
         s+10;
+    /*pergunta 9*/
 }    
