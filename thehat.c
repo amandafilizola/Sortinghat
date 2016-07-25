@@ -55,9 +55,9 @@ int main(void)
         g+5;
     if(x==2)
         h+10;
-    if(x==3)
-        r+10;
     if(x==4)
+        r+10;
+    if(x==3)
         s+10;
 
     /*pergunta 4*/
@@ -168,4 +168,14 @@ int main(void)
     printf("2.Explica para a crianca que voce nao pegou o brinquedo e oferece para ajudar a encontrar a pessoa que pegou.\n");
     printf("3.Explica para a crianca que nao foi voce quem pegou e se recusa a brigar com ela mesmo que ela tente lhe agredir.\n");
     printf("4.Explica a crianca que nao pegou o brinquedo e avisa para deixa-lo em paz.\n");
+    
+    scanf("%d",&x);
+    if(x==1)
+        g+10;
+    if(x==2)
+        h+10;
+    if(x==3)
+        r+10;
+    if(x==4)
+        s+10;
 }    
