@@ -104,11 +104,11 @@ int main(void)
     scanf("%d",&x);
     if(x==1)
         g+10;
-    if(x==4)
+    if(x==2)
         h+10;
     if(x==3)
         r+10;
-    if(x==2)
+    if(x==4)
         s+10;
 
     /*pergunta 7*/
