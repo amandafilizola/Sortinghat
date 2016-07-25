@@ -147,5 +147,6 @@ int main(void)
     /*pergunta 9*/
     printf("Voce ve uma carteira enquanto caminha na rua. Contem dinheiro porem nenhum tipo de idetificacao. Nao tem ninguem a vista.\n\n");
     printf("1.Voce deixa a carteira onde esta. Alguem provavelmente esta procurando por ela.\n");
-    printf("2.Pega o dinheiro. Voce nao sabe a quem pertence, entao \"achado nao e roubado\". ");
+    printf("2.Pega o dinheiro. Voce nao sabe a quem pertence, entao \"achado nao e roubado\".\n ");
+    printf("3.Leva ate a policia caso alguem reporte a perda.\n");
 }    
