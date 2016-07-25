@@ -87,11 +87,11 @@ int main(void)
     scanf("%d",&x);
     if(x==1)
         g+15;
-    if(x==4)
+    if(x==2)
         h+20;
     if(x==3)
         r+15;
-    if(x==2)
+    if(x==4)
         s+15;
 
     /*pergunta 6*/
