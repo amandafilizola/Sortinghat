@@ -163,5 +163,6 @@ int main(void)
         s+10;
 
     /*pergunta 10*/
-    printf("Uma crianca acusa voce, na frente de um bocado de pessoas,de roubar o brinquedo dela(o que voce nao fez).. Voce é duas vezes o tamanho dela porem ela nao desiste.");
+    printf("Uma crianca acusa voce, na frente de um bocado de pessoas,de roubar o brinquedo dela(o que voce nao fez).. Voce é duas vezes o tamanho dela porem ela nao desiste.\n\n");
+    printf("1.Explica para a crianca que nao pegou o brinquedo e se oferece para ajudar a achar quem pegou.\n");
 }    
