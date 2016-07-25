@@ -159,7 +159,7 @@ int main(void)
         h+10;
     if(x==1)
         r+10;
-    iif(x==2)
+    if(x==2)
         s+10;
 
     /*pergunta 10*/
