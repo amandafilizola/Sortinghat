@@ -149,4 +149,5 @@ int main(void)
     printf("1.Voce deixa a carteira onde esta. Alguem provavelmente esta procurando por ela.\n");
     printf("2.Pega o dinheiro. Voce nao sabe a quem pertence, entao \"achado nao e roubado\".\n ");
     printf("3.Leva ate a policia caso alguem reporte a perda.\n");
+    printf("4.Pega carteira e anda pela area perguntando se alguem perdeu a carteira recentemente.\n");
 }    
