@@ -183,5 +183,5 @@ int main(void)
     printf("Um amigo seu diz que tem coisas incriveis dentro de um predio abandonado. Quando voce chega la ve uma placa dizendo \"PERIGO:NAO ENTRE\". Porem o predio nao parece perigoso, nao tem ninguem ao redor para ver voces e seuamigo quer ver como e por dentro.\n\n");
     printf("1.Rio na cara do perigo!Tem provavelmente coisas legais la dentro!Vamos ver sobre o que e essa coisa toda!");
     printf("2.Obviamente tem coisas perigosas la dentro e nao devemos entrar.\n");
-
+    printf("3.Talvez eu entre para dar uma espiada. Nao pode machucar ne?\n");
 }    
