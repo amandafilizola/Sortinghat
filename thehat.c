@@ -199,4 +199,14 @@ int main(void)
     printf("2.Lhe da metade de sua comida e o convida para sentar e conversar com voce. Talvez voce consiga ficar amigo dele.\n");  
     printf("3.Lhe da a comida e vai embora rapidamente. Depois recorre as autoridades competentes para que ele pague pelo que fez.\n");
     printf("4.Lhe da a comida e o segue para a casa dele depois para se vingar fazendo algo bem desagradavel!\n");
+    
+    scanf("%d",&x);
+    if(x==1)
+        g+20;
+    if(x==2)
+        h+40;
+    if(x==3)
+        r+20;
+    if(x==4)
+        s+40;
 }    
