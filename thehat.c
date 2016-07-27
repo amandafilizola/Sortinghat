@@ -142,7 +142,7 @@ int main(void)
         h+10;
     if(x==3)
         r+10;
-    iif(x==4)
+    if(x==4)
         s+10;
 
     /*pergunta 9*/
@@ -184,4 +184,13 @@ int main(void)
     printf("1.Rio na cara do perigo!Tem provavelmente coisas legais la dentro!Vamos ver sobre o que e essa coisa toda!");
     printf("2.Obviamente tem coisas perigosas la dentro e nao devemos entrar.\n");
     printf("3.Talvez eu entre para dar uma espiada. Nao pode machucar ne?\n");
+    
+    scanf("%d",&x);
+    if(x==1)
+        g+20;
+    if(x==2)
+        h+15 $$ r+15;
+    if(x==3)
+        s+15;
+
 }    
