@@ -193,4 +193,6 @@ int main(void)
     if(x==3)
         s+15;
 
+    /*pergunta 12*/
+
 }    
