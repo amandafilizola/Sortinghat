@@ -180,5 +180,5 @@ int main(void)
         s+10;
 
     /*pergunta 11*/
-
+    printf("Um amigo seu diz que tem coisas incriveis dentro de um predio abandonado. Quando voce chega la ve uma placa dizendo \"PERIGO:NAO ENTRE\". Porem o predio nao parece perigoso, nao tem ninguem ao redor para ver voces e seuamigo quer ver como e por dentro.\n\n");
 }    
