@@ -194,5 +194,5 @@ int main(void)
         s+15;
 
     /*pergunta 12*/
-
+    printf("Um homem grande e forte se aproxima de voce enquanto voce esta almocando e exige que voce de comida a ele. Ele nao parece ser pobre ou estar passando fome.\n\n");
 }    
