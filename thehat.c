@@ -178,4 +178,7 @@ int main(void)
         r+10;
     if(x==4)
         s+10;
+
+    /*pergunta 11*/
+
 }    
