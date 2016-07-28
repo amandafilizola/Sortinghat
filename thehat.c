@@ -213,4 +213,5 @@ int main(void)
     printf("Voce herdou uma pequena fortuna da sua tia-avo. O que voce faz?");
     printf("1.Compra algumas coisas logo que recebe. Talvez um carro novo, uma casa propria etc. O resto salva para necessidade.");
     printf("2.Doa tudo para doentes, feridos e pobres.");
+    printf("3.Poe tudo numa conta poupança e gasta por necessidade.");
 }    
