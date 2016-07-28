@@ -210,9 +210,9 @@ int main(void)
     if(x==4)
         s+40;
     /*pergunta 13*/
-    printf("Voce herdou uma pequena fortuna da sua tia-avo. O que voce faz?");
-    printf("1.Compra algumas coisas logo que recebe. Talvez um carro novo, uma casa propria etc. O resto salva para necessidade.");
-    printf("2.Doa tudo para doentes, feridos e pobres.");
-    printf("3.Poe tudo numa conta poupança e gasta por necessidade.");
+    printf("Voce herdou uma pequena fortuna da sua tia-avo. O que voce faz?\n\n");
+    printf("1.Compra algumas coisas logo que recebe. Talvez um carro novo, uma casa propria etc. O resto salva para necessidade.\n");
+    printf("2.Doa tudo para doentes, feridos e pobres.\n");
+    printf("3.Poe tudo numa conta poupança e gasta por necessidade.\n");
     printf("4.Investe no mercado de ações.\n");
 }    
