@@ -216,4 +216,16 @@ int main(void)
     printf("3.Poe tudo numa conta poupança e gasta por necessidade.\n");
     printf("4.Investe no mercado de ações.\n");
     printf("5.Usa o dinheiro para montar um negocio proprio.\n");
+ 
+    scanf("%d",&x);
+    if(x==1)
+        g+10;
+    if(x==2)
+        h+10;
+    if(x==3)
+        r+10;
+    if(x==4)
+        s+10;
+    if(x==5)
+        g+10 && s+10;
 }    
