@@ -215,4 +215,5 @@ int main(void)
     printf("2.Doa tudo para doentes, feridos e pobres.\n");
     printf("3.Poe tudo numa conta poupança e gasta por necessidade.\n");
     printf("4.Investe no mercado de ações.\n");
+    printf("5.Usa o dinheiro para montar um negocio proprio.\n");
 }    
