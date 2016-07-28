@@ -209,4 +209,6 @@ int main(void)
         r+20;
     if(x==4)
         s+40;
+    /*pergunta 13*/
+
 }    
