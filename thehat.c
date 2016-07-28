@@ -210,5 +210,5 @@ int main(void)
     if(x==4)
         s+40;
     /*pergunta 13*/
-
+    printf("Voce herdou uma pequena fortuna da sua tia-avo. O que voce faz?");
 }    
