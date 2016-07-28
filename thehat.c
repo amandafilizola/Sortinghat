@@ -211,4 +211,5 @@ int main(void)
         s+40;
     /*pergunta 13*/
     printf("Voce herdou uma pequena fortuna da sua tia-avo. O que voce faz?");
+    printf("1.Compra algumas coisas logo que recebe. Talvez um carro novo, uma casa propria etc. O resto salva para necessidade.");
 }    
