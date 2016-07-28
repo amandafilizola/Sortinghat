@@ -214,4 +214,5 @@ int main(void)
     printf("1.Compra algumas coisas logo que recebe. Talvez um carro novo, uma casa propria etc. O resto salva para necessidade.");
     printf("2.Doa tudo para doentes, feridos e pobres.");
     printf("3.Poe tudo numa conta poupança e gasta por necessidade.");
+    printf("4.Investe no mercado de ações.\n");
 }    
