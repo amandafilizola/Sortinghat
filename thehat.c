@@ -234,4 +234,6 @@ int main(void)
     printf("1.Vou tentar, mas se nao conseguir, nao sera o fim do mundo.\n");
     printf("2.Tento fazer, porem se nao conseguir, dou o quebra-cabeca para outra pessoa tentar e ver se consegue. Talvez possamos rir juntos de nos mesmos.\n");
     printf("3.Vou dedicar um tempo a isso. Tenho certeza que posso resolver eventualmente.\n");
+    printf("4.Nao vou desistir ate eu resolve-lo. Depois talvez eu tente resolver com os olhos vendados.\n");
+    printf("5.Dedicarei o tempo que precisar para isso. Pensarei em modos criativos de resolver esse problema.\n");
 }    
