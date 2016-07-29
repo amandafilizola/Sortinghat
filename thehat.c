@@ -230,4 +230,5 @@ int main(void)
         g+10 && s+10;
 
     /*pergunta 14*/
+    printf("A voce foi dado um pequeno quebra-cabeca de plastico que parece bem dificil de resolver.\n\n");
 }    
