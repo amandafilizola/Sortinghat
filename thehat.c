@@ -245,5 +245,7 @@ int main(void)
     if(x==3)
         r+20;
     if(x==4)
-        s+20;
+        s+30;
+    if(x==5)
+        r+30;
 }    
