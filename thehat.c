@@ -228,4 +228,6 @@ int main(void)
         s+10;
     if(x==5)
         g+10 && s+10;
+
+    /*pergunta 14*/
 }    
