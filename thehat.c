@@ -231,4 +231,5 @@ int main(void)
 
     /*pergunta 14*/
     printf("A voce foi dado um pequeno quebra-cabeca de plastico que parece bem dificil de resolver.\n\n");
+    printf("1.Vou tentar, mas se nao conseguir, nao sera o fim do mundo.\n");
 }    
