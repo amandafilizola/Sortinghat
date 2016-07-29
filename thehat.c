@@ -236,4 +236,14 @@ int main(void)
     printf("3.Vou dedicar um tempo a isso. Tenho certeza que posso resolver eventualmente.\n");
     printf("4.Nao vou desistir ate eu resolve-lo. Depois talvez eu tente resolver com os olhos vendados.\n");
     printf("5.Dedicarei o tempo que precisar para isso. Pensarei em modos criativos de resolver esse problema.\n");
+    
+    scanf("%d",&x);
+    if(x==1)
+        g+20;
+    if(x==2)
+        h+20;
+    if(x==3)
+        r+20;
+    if(x==4)
+        s+20;
 }    
