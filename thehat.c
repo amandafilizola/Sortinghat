@@ -255,4 +255,14 @@ int main(void)
     printf("2.Eu o salvaria mesmo que ele fosse uma pessoa ma porque eu sei que ele e inocente dessa vez.\n");
     printf("3.Vou salva-lo pois sei que ele e uma pessoa melhor agora.\n");
     printf("4.Eu o salvaria, com a condicao que ele me pagasse o que me deve.\n");                  
+    
+    scanf("%d",&x);
+    if(x==1)
+        g+10;
+    if(x==2)
+        h+10;
+    if(x==3)
+        r+10;
+    if(x==4)
+        s+10;
 }   
