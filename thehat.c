@@ -254,5 +254,5 @@ int main(void)
     printf("1.Nao digo nada. Essa e a punicao que ele nao teve cinco anos atras.\n");
     printf("2.Vou salva-lo pois sei que ele e uma pessoa melhor agora.\n");
     printf("3.Eu o salvaria mesmo que ele fosse uma pessoa ma porque eu sei que ele e inocente dessa vez.\n");
-                      
+    printf("4.Eu o salvaria, com a condicao que ele me pagasse o que me deve.\n");                  
 }   
