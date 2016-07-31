@@ -248,4 +248,7 @@ int main(void)
         s+30;
     if(x==5)
         r+30;
+
+    /*pergunta 15*/
+
 }    
