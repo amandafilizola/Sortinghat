@@ -252,5 +252,7 @@ int main(void)
     /*pergunta 15*/
     printf("Cinco anos atras um garoto roubou seu dinheiro e nunca teve confusao por causa disso. Desde entao, ele se tornou uma pessoa muito melhor. Recentement, ele foi preso por roubo, porem voce pode provar que ele e inocente.\n\n");
     printf("1.Nao digo nada. Essa e a punicao que ele nao teve cinco anos atras.\n");
+    printf("2.Vou salva-lo pois sei que ele e uma pessoa melhor agora.\n");
 
-}    
+                      
+}   
