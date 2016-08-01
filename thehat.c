@@ -271,4 +271,5 @@ int main(void)
     printf("1.Arrobaria a porta.\n");
     printf("2.Bateria à porta.\n");
     printf("3.Arrombaria discretamente a fechadura com um kit de arrombamento.\n");
+    printf("4.Procuraria a chave.\n");
 }   
