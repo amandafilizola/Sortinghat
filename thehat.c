@@ -267,4 +267,5 @@ int main(void)
         s+10;
 
     /*pergunta 16*/
+    printf("Como voce passaria por uma porta trancada?\n\n");
 }   
