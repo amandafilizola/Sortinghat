@@ -272,4 +272,14 @@ int main(void)
     printf("2.Bateria à porta.\n");
     printf("3.Arrombaria discretamente a fechadura com um kit de arrombamento.\n");
     printf("4.Procuraria a chave.\n");
+
+    scanf("%d",&x);
+    if(x==1)
+        g+10;
+    if(x==2)
+        h+10;
+    if(x==3)
+        r+10;
+    if(x==4)
+        s+10;
 }   
