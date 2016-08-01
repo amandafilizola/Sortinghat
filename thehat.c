@@ -270,4 +270,5 @@ int main(void)
     printf("Como voce passaria por uma porta trancada?\n\n");
     printf("1.Arrobaria a porta.\n");
     printf("2.Bateria à porta.\n");
+    printf("3.Arrombaria discretamente a fechadura com um kit de arrombamento.\n");
 }   
