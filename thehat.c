@@ -288,4 +288,5 @@ int main(void)
     printf("1.Com certeza.\n");
     printf("2.Apenas se forem para ajudar alguem.\n");
     printf("3.Apenas se for estrategicamente vantajoso.\n");
+    printf("4.Apenas se valer a recompensa.\n");
 }   
