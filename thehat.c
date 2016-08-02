@@ -284,4 +284,5 @@ int main(void)
         s+10;
 
     /*pergunta 17*/
+    printf("Voce se considera uma pessoa que toma riscos?\n\n");
 }   
