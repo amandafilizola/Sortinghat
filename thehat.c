@@ -285,4 +285,5 @@ int main(void)
 
     /*pergunta 17*/
     printf("Voce se considera uma pessoa que toma riscos?\n");
+    printf("1.Com certeza.\n");
 }   
