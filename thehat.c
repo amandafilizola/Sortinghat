@@ -289,4 +289,14 @@ int main(void)
     printf("2.Apenas se forem para ajudar alguem.\n");
     printf("3.Apenas se for estrategicamente vantajoso.\n");
     printf("4.Apenas se valer a recompensa.\n");
-}   
+   
+    scanf("%d",&x);
+    if(x==1)
+        g+10;
+    if(x==2)
+        h+10;
+    if(x==3)
+        r+10;
+    if(x==4)
+        s+10;
+}
