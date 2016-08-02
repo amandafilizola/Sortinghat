@@ -287,4 +287,5 @@ int main(void)
     printf("Voce se considera uma pessoa que toma riscos?\n");
     printf("1.Com certeza.\n");
     printf("2.Apenas se forem para ajudar alguem.\n");
+    printf("3.Apenas se for estrategicamente vantajoso.\n");
 }   
