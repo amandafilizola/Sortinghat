@@ -8,9 +8,9 @@ The Sorting Hat
 
 int main(void)
 {
-    int x,g,s,r,h;
+    int x,g=0,s=0,r=0,h=0;
     printf("Voce esta comecando o questionario para determinar sua Casa. Responda o mais honestamente possivel, pois do contrario, recebera uma Casa na qual nao se encaixa.\nDigite o numero da resposta escolhida e pressione <enter>.");
-
+    
     /*comeco do questionario*/
     /*pergunta 1 */
     printf("Qual as caracteristicas que voce mais preza:\n\n");
@@ -63,7 +63,7 @@ int main(void)
     /*pergunta 4*/
     printf("Voce tem inimizades na sua escola ou trabalho?\n\n");
     printf("1.Sim. Nao me orgulho disto porem sempre rola uma rixa com outras turmas.\n");
-    printf("2.Detesto brigas e evito conflitos!Tem gente que me acha bobo por isso, porem nao ligo.");
+    printf("2.Detesto brigas e evito conflitos!Tem gente que me acha bobo por isso, porem nao ligo.\n");
     printf("3.Evito conflitos. Sou muito 'na minha'.\n");
     printf("4.Nao.O que vem de baixo nao pode me atingir.\n");
   
@@ -148,7 +148,7 @@ int main(void)
     /*pergunta 9*/
     printf("Voce ve uma carteira enquanto caminha na rua. Contem dinheiro porem nenhum tipo de idetificacao. Nao tem ninguem a vista.\n\n");
     printf("1.Voce deixa a carteira onde esta. Alguem provavelmente esta procurando por ela.\n");
-    printf("2.Pega o dinheiro. Voce nao sabe a quem pertence, entao \"achado nao e roubado\".\n ");
+    printf("2.Pega o dinheiro. Voce nao sabe a quem pertence, entao \"achado nao e roubado\".\n");
     printf("3.Leva ate a policia caso alguem reporte a perda.\n");
     printf("4.Pega carteira e anda pela area perguntando se alguem perdeu a carteira recentemente.\n");
 
@@ -181,7 +181,7 @@ int main(void)
 
     /*pergunta 11*/
     printf("Um amigo seu diz que tem coisas incriveis dentro de um predio abandonado. Quando voce chega la ve uma placa dizendo \"PERIGO:NAO ENTRE\". Porem o predio nao parece perigoso, nao tem ninguem ao redor para ver voces e seuamigo quer ver como e por dentro.\n\n");
-    printf("1.Rio na cara do perigo!Tem provavelmente coisas legais la dentro!Vamos ver sobre o que e essa coisa toda!");
+    printf("1.Rio na cara do perigo!Tem provavelmente coisas legais la dentro!Vamos ver sobre o que e essa coisa toda!\n");
     printf("2.Obviamente tem coisas perigosas la dentro e nao devemos entrar.\n");
     printf("3.Talvez eu entre para dar uma espiada. Nao pode machucar ne?\n");
     
@@ -189,7 +189,10 @@ int main(void)
     if(x==1)
         g=g+20;
     if(x==2)
-        h=h+15 && r=r+15;
+    {
+        h=h+15;
+        r=r+15;
+    }
     if(x==3)
         s=s+15;
 
@@ -227,8 +230,10 @@ int main(void)
     if(x==4)
         s=s+10;
     if(x==5)
-        g=g+10 && s=s+10;
-
+    {
+        g=g+10;
+        s=s+10;
+    }
     /*pergunta 14*/
     printf("A voce foi dado um pequeno quebra-cabeca de plastico que parece bem dificil de resolver.\n\n");
     printf("1.Vou tentar, mas se nao conseguir, nao sera o fim do mundo.\n");
@@ -301,28 +306,29 @@ int main(void)
         s=s+10;
 
     /*fim do questionario*/
-    if(g > (r && h && s))
+    if(g > r && g > h && g > s)
     {
         printf("Voce foi sortido(a) para GRYFFINDOR!\n\n");
-        printf("\"You might belong in Gryffindor,\nWhere dwell the brave at heart,\nTheir daring, nerve, and chivalry\nSet Gryffindors apart.\"\n");
+        printf("\"You might belong in Gryffindor,\nWhere dwell the brave at heart,\nTheir daring, nerve, and chivalry\nSet Gryffindors apart.\"\n\n");
     }
-
-    if(h > (g && r &&s)) 
-    {
-        printf("Voce foi sortido(a) para HUFFLEPUFF!\n\n"); 
-        printf("\"You might belong in Hufflepuff,\nWhere they are just and loyal,\nThose patient Hufflepuffs are true,\nAnd unafraid of toil.\"\n");
-    }
-
-    if(r > (g && h && s))
-    {
-        printf("Voce foi sortido(a) para RAVENCLAW!\n\n");
-        printf("\"On wise old Ravenclaw,\nIf you've a ready mind,\nWhere those of wit and learning,\nWill always find their kind.\"\n");
-    }    
-
-    if(s > (g && h && r))
-    {
-        printf("Voce foi sortido(a) para SLYTHERIN!\n\n");
-        printf("\"Or perhaps in Slytherin,\nYou'll make your real friends,\nThose cunning folk use any means,\nTo achieve their ends.\"\n");
-    }    
-
+    else
+        if(h > g && h > r && h > s) 
+        {
+            printf("Voce foi sortido(a) para HUFFLEPUFF!\n\n"); 
+            printf("\"You might belong in Hufflepuff,\nWhere they are just and loyal,\nThose patient Hufflepuffs are true,\nAnd unafraid of toil.\"\n\n");
+        }
+        else
+            if(r > g && r > h && r > s)
+            {
+                printf("Voce foi sortido(a) para RAVENCLAW!\n\n");
+                printf("\"On wise old Ravenclaw,\nIf you've a ready mind,\nWhere those of wit and learning,\nWill always find their kind.\"\n\n");
+            }    
+            else
+                if(s > g && s > h && s > r)
+                {
+                    printf("Voce foi sortido(a) para SLYTHERIN!\n\n");
+                    printf("\"Or perhaps in Slytherin,\nYou'll make your real friends,\nThose cunning folk use any means,\nTo achieve their ends.\"\n\n");
+                }    
+ 
+    printf("Gryffindor:%d\nHufflepuff:%d\nRavenclaw:%d\nSlytherin:%d\n",g,h,r,s);
 }
