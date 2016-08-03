@@ -14,7 +14,7 @@ int main(void)
     /*comeco do questionario*/
     /*pergunta 1 */
     printf("Qual as caracteristicas que voce mais preza:\n\n");
-    pritnf("1.Coragem e cavalheirismo.\n");
+    printf("1.Coragem e cavalheirismo.\n");
     printf("2.Lealdade e justica.\n");
     printf("3.Inteligencia e criatividade.\n");
     printf("4.Astúcia e determinacao.\n");
@@ -299,4 +299,8 @@ int main(void)
         r+10;
     if(x==4)
         s+10;
+
+    /*fim do questionario*/
+
+
 }
