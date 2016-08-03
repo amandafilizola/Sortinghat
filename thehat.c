@@ -309,6 +309,11 @@ int main(void)
 
     if(h > (g && r &&s)) 
     {
-        printf("VOce foi sortido(a) para HUFFLEPUFF!\n\n"); 
+        printf("Voce foi sortido(a) para HUFFLEPUFF!\n\n"); 
+        printf("\"You might belong in Hufflepuff,\nWhere they are just and loyal,\nThose patient Hufflepuffs are true,\nAnd unafraid of toil.\"\n");
     }
+
+
+
+
 }
