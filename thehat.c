@@ -434,8 +434,8 @@ int main(void)
         }
         else
         {
-            printf("Voce foi sortido(a) para HUFFLEPUFF!\n\n"); 
-            printf("\"You might belong in Hufflepuff,\nWhere they are just and loyal,\nThose patient Hufflepuffs are true,\nAnd unafraid of toil.\"\n\n");
-        }   
+            printf("Voce foi sortido(a) para RAVENCLAW!\n\n");
+            printf("\"On wise old Ravenclaw,\nIf you've a ready mind,\nWhere those of wit and learning,\nWill always find their kind.\"\n\n");
+        }      
     }             
 }
