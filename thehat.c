@@ -5,7 +5,6 @@ The Sorting Hat
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.c>
 int main(void)
 {
     int x,g=0,s=0,r=0,h=0;
@@ -306,8 +305,9 @@ int main(void)
         s=s+10;
 
     /*fim do questionario*/
+    /*processamento*/
     if(g > r && g > h && g > s)
-    {
+    {   
         printf("Voce foi sortido(a) para GRYFFINDOR!\n\n");
         printf("\"You might belong in Gryffindor,\nWhere dwell the brave at heart,\nTheir daring, nerve, and chivalry\nSet Gryffindors apart.\"\n\n");
     }
@@ -327,8 +327,115 @@ int main(void)
                 if(s > g && s > h && s > r)
                 {
                     printf("Voce foi sortido(a) para SLYTHERIN!\n\n");
-                    printf("\"Or perhaps in Slytherin,\nYou'll make your real friends,\nThose cunning folk use any means,\nTo achieve their ends.\"\n\n");
+                    printf("\"Perhaps in Slytherin,\nYou'll make your real friends,\nThose cunning folk use any means,\nTo achieve their ends.\"\n\n");
                 }    
- 
-    printf("Gryffindor:%d\nHufflepuff:%d\nRavenclaw:%d\nSlytherin:%d\n",g,h,r,s);
+    /*começo do hatstall*/
+    if(g==h && g > r && g > s)
+    {
+        printf("Parabens! Voce e um Hatstall! Hatstall e alguem que o chapeu seletor demora muito para colocar em uma casa. Um termo arcaico de Hogwarts para qualquer novo estudante do qual a selecao demore mais que cinco minutos. Esse e um tempo excepcionalmente longo para que o Chapeu Seletor delibere pela pessoa ter a personalidade igualmente compativel com duas Casas, e acontece raramente, talvez uma vez a cada cinquenta anos.\n ");
+        
+        printf("Qual a Casa de sua preferência?\n");
+        printf("1.Gryffindor.\n2.Hufflepuff.\n\n");
+        scanf("%d",&x);
+        if(x==1)
+        {   
+            printf("Voce foi sortido(a) para GRYFFINDOR!\n\n");
+            printf("\"You might belong in Gryffindor,\nWhere dwell the brave at heart,\nTheir daring, nerve, and chivalry\nSet Gryffindors apart.\"\n\n");
+        }
+        else
+        {
+            printf("Voce foi sortido(a) para HUFFLEPUFF!\n\n"); 
+            printf("\"You might belong in Hufflepuff,\nWhere they are just and loyal,\nThose patient Hufflepuffs are true,\nAnd unafraid of toil.\"\n\n");
+        }
+    }    
+    if(g==s && g > r && g > h)
+    {
+        printf("Parabens! Voce e um Hatstall! Hatstall e alguem que o chapeu seletor demora muito para colocar em uma casa. Um termo arcaico de Hogwarts para qualquer novo estudante do qual a selecao demore mais que cinco minutos. Esse e um tempo excepcionalmente longo para que o Chapeu Seletor delibere pela pessoa ter a personalidade igualmente compativel com duas Casas, e acontece raramente, talvez uma vez a cada cinquenta anos.\n ");
+     
+        printf("Qual a Casa de sua preferência?\n");
+        printf("1.Gryffindor.\n2.Slytherin.\n\n");
+        scanf("%d",&x);
+        if(x==1)
+        {
+            printf("Voce foi sortido(a) para GRYFFINDOR!\n\n");
+            printf("\"You might belong in Gryffindor,\nWhere dwell the brave at heart,\nTheir daring, nerve, and chivalry\nSet Gryffindors apart.\"\n\n");
+        }    
+        else
+        {
+            printf("Voce foi sortido(a) para SLYTHERIN!\n\n");
+            printf("\"Perhaps in Slytherin,\nYou'll make your real friends,\nThose cunning folk use any means,\nTo achieve their ends.\"\n\n");
+        }    
+    }
+    if(g==r && g > h && g > s)
+    {
+        printf("Parabens! Voce e um Hatstall! Hatstall e alguem que o chapeu seletor demora muito para colocar em uma casa. Um termo arcaico de Hogwarts para qualquer novo estudante do qual a selecao demore mais que cinco minutos. Esse e um tempo excepcionalmente longo para que o Chapeu Seletor delibere pela pessoa ter a personalidade igualmente compativel com duas Casas, e acontece raramente, talvez uma vez a cada cinquenta anos.\n ");
+     
+        printf("Qual a Casa de sua preferência?\n");
+        printf("1.Gryffindor.\n2.Ravenclaw.\n\n");
+        scanf("%d",&x);
+        if(x==1)
+        {
+            printf("Voce foi sortido(a) para GRYFFINDOR!\n\n");
+            printf("\"You might belong in Gryffindor,\nWhere dwell the brave at heart,\nTheir daring, nerve, and chivalry\nSet Gryffindors apart.\"\n\n");
+        }    
+        else  
+        {
+            printf("Voce foi sortido(a) para RAVENCLAW!\n\n");
+            printf("\"On wise old Ravenclaw,\nIf you've a ready mind,\nWhere those of wit and learning,\nWill always find their kind.\"\n\n");
+        }    
+    }    
+    if(h==r && h > g && h > s)
+    {
+        printf("Parabens! Voce e um Hatstall! Hatstall e alguem que o chapeu seletor demora muito para colocar em uma casa. Um termo arcaico de Hogwarts para qualquer novo estudante do qual a selecao demore mais que cinco minutos. Esse e um tempo excepcionalmente longo para que o Chapeu Seletor delibere pela pessoa ter a personalidade igualmente compativel com duas Casas, e acontece raramente, talvez uma vez a cada cinquenta anos.\n ");
+     
+        printf("Qual a Casa de sua preferência?\n");
+        printf("1.Hufflepuff.\n2.Ravenclaw.\n\n");
+        scanf("%d",&x);
+        if(x==1)
+        {
+            printf("Voce foi sortido(a) para HUFFLEPUFF!\n\n"); 
+            printf("\"You might belong in Hufflepuff,\nWhere they are just and loyal,\nThose patient Hufflepuffs are true,\nAnd unafraid of toil.\"\n\n");
+        }   
+        else
+        {
+            printf("Voce foi sortido(a) para RAVENCLAW!\n\n");
+            printf("\"On wise old Ravenclaw,\nIf you've a ready mind,\nWhere those of wit and learning,\nWill always find their kind.\"\n\n");
+        }    
+    }    
+    if(h==s && h > g && h > r)
+    {
+        printf("Parabens! Voce e um Hatstall! Hatstall e alguem que o chapeu seletor demora muito para colocar em uma casa. Um termo arcaico de Hogwarts para qualquer novo estudante do qual a selecao demore mais que cinco minutos. Esse e um tempo excepcionalmente longo para que o Chapeu Seletor delibere pela pessoa ter a personalidade igualmente compativel com duas Casas, e acontece raramente, talvez uma vez a cada cinquenta anos.\n ");
+     
+        printf("Qual a Casa de sua preferência?\n");
+        printf("1.Hufflepuff.\n2.Slytherin.\n\n");
+        scanf("%d",&x);
+        if(x==1)
+        {
+            printf("Voce foi sortido(a) para HUFFLEPUFF!\n\n"); 
+            printf("\"You might belong in Hufflepuff,\nWhere they are just and loyal,\nThose patient Hufflepuffs are true,\nAnd unafraid of toil.\"\n\n");
+        }    
+        else
+        {
+            printf("Voce foi sortido(a) para SLYTHERIN!\n\n");
+            printf("\"Perhaps in Slytherin,\nYou'll make your real friends,\nThose cunning folk use any means,\nTo achieve their ends.\"\n\n");
+        }    
+    }
+    if(r==s && r > g && r > h)
+    {
+        printf("Parabens! Voce e um Hatstall! Hatstall e alguem que o chapeu seletor demora muito para colocar em uma casa. Um termo arcaico de Hogwarts para qualquer novo estudante do qual a selecao demore mais que cinco minutos. Esse e um tempo excepcionalmente longo para que o Chapeu Seletor delibere pela pessoa ter a personalidade igualmente compativel com duas Casas, e acontece raramente, talvez uma vez a cada cinquenta anos.\n ");
+     
+        printf("Qual a Casa de sua preferência?\n");
+        printf("1.Slytherin.\n2.Ravenclaw.\n\n");
+        scanf("%d",&x);
+        if(x==1)
+        {
+            printf("Voce foi sortido(a) para SLYTHERIN!\n\n");
+            printf("\"Perhaps in Slytherin,\nYou'll make your real friends,\nThose cunning folk use any means,\nTo achieve their ends.\"\n\n");
+        }
+        else
+        {
+            printf("Voce foi sortido(a) para HUFFLEPUFF!\n\n"); 
+            printf("\"You might belong in Hufflepuff,\nWhere they are just and loyal,\nThose patient Hufflepuffs are true,\nAnd unafraid of toil.\"\n\n");
+        }   
+    }             
 }
