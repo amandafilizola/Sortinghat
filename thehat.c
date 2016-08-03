@@ -301,6 +301,7 @@ int main(void)
         s+10;
 
     /*fim do questionario*/
-
+    if(g > (r && h && s))
+        printf("Voce foi sortido para GRYFFINDOR!");
 
 }
