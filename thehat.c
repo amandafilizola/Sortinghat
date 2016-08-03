@@ -319,5 +319,9 @@ int main(void)
         printf("\"On wise old Ravenclaw,\nIf you've a ready mind,\nWhere those of wit and learning,\nWill always find their kind.\"\n");
     }    
 
+    if(s > (g && h && r))
+    {
+        printf("Voce foi sortido(a) para SLYTHERIN!\n\n");
+    }    
 
 }
