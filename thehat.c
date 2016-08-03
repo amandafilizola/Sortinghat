@@ -303,7 +303,7 @@ int main(void)
     /*fim do questionario*/
     if(g > (r && h && s))
     {
-        printf("Voce foi sortido para GRYFFINDOR!\n\n");
+        printf("Voce foi sortido(a) para GRYFFINDOR!\n\n");
         printf("\"You might belong in Gryffindor,\nWhere dwell the brave at heart,\nTheir daring, nerve, and chivalry\nSet Gryffindors apart.\"\n");
     }
 
@@ -313,7 +313,10 @@ int main(void)
         printf("\"You might belong in Hufflepuff,\nWhere they are just and loyal,\nThose patient Hufflepuffs are true,\nAnd unafraid of toil.\"\n");
     }
 
-
+    if(r > (g && h && s))
+    {
+        printf("Voce foi sortido(a) para RAVENCLAW!\n\n");
+    }    
 
 
 }
