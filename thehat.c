@@ -20,13 +20,13 @@ int main(void)
     printf("4.Astúcia e determinacao.\n");
     scanf("%d",&x);
     if(x==1)
-        g+20;
+        g=g+20;
     if(x==2)
-        h+20;
+        h=h+20;
     if(x==3)
-        r+20;
+        r=r+20;
     if(x==4)
-        s+20;
+        s=s+20;
 
     /*pergunta 2*/
     printf("O que voce mais espera fazer no primeiro dia de aula?\n\n");
@@ -36,13 +36,13 @@ int main(void)
     printf("4.Exibir o material novo e minhas roupas novas para meus amigos(as).\n");
     scanf("%d",&x);
     if(x==1)
-        g+10;
+        g=g+10;
     if(x==2)
-        h+10;
+        h=h+10;
     if(x==3)
-        r+10;
+        r=r+10;
     if(x==4)
-        s+10;
+        s=s+10;
 
     /*pergunta 3*/
     printf("É fácil começar uma amizade com voce?\n\n");
@@ -52,13 +52,13 @@ int main(void)
     printf("4.Talvez. Um bom jeito de comecar e me pedir ajuda com atividades que sou bom.\n");
     scanf("%d",&x);
     if(x==1)
-        g+5;
+        g=g+5;
     if(x==2)
-        h+10;
+        h=h+10;
     if(x==4)
-        r+10;
+        r=r+10;
     if(x==3)
-        s+10;
+        s=s+10;
 
     /*pergunta 4*/
     printf("Voce tem inimizades na sua escola ou trabalho?\n\n");
@@ -69,13 +69,13 @@ int main(void)
   
     scanf("%d",&x);
     if(x==1)
-        g+10;
+        g=g+10;
     if(x==2)
-        h+20;
+        h=h+20;
     if(x==3)
-        r+10;
+        r=r+10;
     if(x==4)
-        s+10;
+        s=s+10;
     
     /*pergunta 5*/
     printf("Um aluno novo e timido entrou na sala. Como voce procede para integra-lo a turma?\n\n");
@@ -86,13 +86,13 @@ int main(void)
 
     scanf("%d",&x);
     if(x==1)
-        g+15;
+        g=g+15;
     if(x==2)
-        h+20;
+        h=h+20;
     if(x==3)
-        r+15;
+        r=r+15;
     if(x==4)
-        s+15;
+        s=s+15;
 
     /*pergunta 6*/
     printf("Estudar é o que para você?\n\n");
@@ -103,13 +103,13 @@ int main(void)
 
     scanf("%d",&x);
     if(x==1)
-        g+10;
+        g=g+10;
     if(x==2)
-        h+10;
+        h=h+10;
     if(x==3)
-        r+10;
+        r=r+10;
     if(x==4)
-        s+10;
+        s=s+10;
 
     /*pergunta 7*/
     printf("Como você se vê no futuro?\n\n");
@@ -120,13 +120,13 @@ int main(void)
 
     scanf("%d",&x);
     if(x==1)
-        g+15;
+        g=g+15;
     if(x==2)
-        h+15;
+        h=h+15;
     if(x==3)
-        r+15;
+        r=r+15;
     if(x==4)
-        s+20;
+        s=s+20;
 
     /*pergunta 8*/
     printf("Sua casa está em chamas. Qual a única coisa que voce salva?\n\n");
@@ -137,13 +137,13 @@ int main(void)
   
     scanf("%d",&x);
     if(x==1)
-        g+10;
+        g=g+10;
     if(x==2)
-        h+10;
+        h=h+10;
     if(x==3)
-        r+10;
+        r=r+10;
     if(x==4)
-        s+10;
+        s=s+10;
 
     /*pergunta 9*/
     printf("Voce ve uma carteira enquanto caminha na rua. Contem dinheiro porem nenhum tipo de idetificacao. Nao tem ninguem a vista.\n\n");
@@ -154,13 +154,13 @@ int main(void)
 
     scanf("%d",&x);
     if(x==4)
-        g+10;
+        g=g+10;
     if(x==3)
-        h+10;
+        h=h+10;
     if(x==1)
-        r+10;
+        r=r+10;
     if(x==2)
-        s+10;
+        s=s+10;
 
     /*pergunta 10*/
     printf("Uma crianca acusa voce, na frente de um bocado de pessoas,de roubar o brinquedo dela(o que voce nao fez). Voce é duas vezes o tamanho dela porem ela nao desiste.\n\n");
@@ -171,13 +171,13 @@ int main(void)
     
     scanf("%d",&x);
     if(x==1)
-        g+10;
+        g=g+10;
     if(x==2)
-        h+10;
+        h=h+10;
     if(x==3)
-        r+10;
+        r=r+10;
     if(x==4)
-        s+10;
+        s=s+10;
 
     /*pergunta 11*/
     printf("Um amigo seu diz que tem coisas incriveis dentro de um predio abandonado. Quando voce chega la ve uma placa dizendo \"PERIGO:NAO ENTRE\". Porem o predio nao parece perigoso, nao tem ninguem ao redor para ver voces e seuamigo quer ver como e por dentro.\n\n");
@@ -187,11 +187,11 @@ int main(void)
     
     scanf("%d",&x);
     if(x==1)
-        g+20;
+        g=g+20;
     if(x==2)
-        h+15 && r+15;
+        h=h+15 && r=r+15;
     if(x==3)
-        s+15;
+        s=s+15;
 
     /*pergunta 12*/
     printf("Um homem grande e forte se aproxima de voce enquanto voce esta almocando e exige que voce de comida a ele. Ele nao parece ser pobre ou estar passando fome.\n\n");
@@ -202,13 +202,13 @@ int main(void)
     
     scanf("%d",&x);
     if(x==1)
-        g+20;
+        g=g+20;
     if(x==2)
-        h+40;
+        h=h+40;
     if(x==3)
-        r+20;
+        r=r+20;
     if(x==4)
-        s+40;
+        s=s+40;
     /*pergunta 13*/
     printf("Voce herdou uma pequena fortuna da sua tia-avo. O que voce faz?\n\n");
     printf("1.Compra algumas coisas logo que recebe. Talvez um carro novo, uma casa propria etc. O resto salva para necessidade.\n");
@@ -219,15 +219,15 @@ int main(void)
  
     scanf("%d",&x);
     if(x==1)
-        g+10;
+        g=g+10;
     if(x==2)
-        h+10;
+        h=h+10;
     if(x==3)
-        r+10;
+        r=r+10;
     if(x==4)
-        s+10;
+        s=s+10;
     if(x==5)
-        g+10 && s+10;
+        g=g+10 && s=s+10;
 
     /*pergunta 14*/
     printf("A voce foi dado um pequeno quebra-cabeca de plastico que parece bem dificil de resolver.\n\n");
@@ -239,15 +239,15 @@ int main(void)
     
     scanf("%d",&x);
     if(x==1)
-        g+20;
+        g=g+20;
     if(x==2)
-        h+20;
+        h=h+20;
     if(x==3)
-        r+20;
+        r=r+20;
     if(x==4)
-        s+30;
+        s=s+30;
     if(x==5)
-        r+30;
+        r=r+30;
 
     /*pergunta 15*/
     printf("Cinco anos atras um garoto roubou seu dinheiro e nunca teve confusao por causa disso. Desde entao, ele se tornou uma pessoa muito melhor. Recentement, ele foi preso por roubo, porem voce pode provar que ele e inocente.\n\n");
@@ -258,13 +258,13 @@ int main(void)
     
     scanf("%d",&x);
     if(x==1)
-        g+10;
+        g=g+10;
     if(x==2)
-        h+10;
+        h=h+10;
     if(x==3)
-        r+10;
+        r=r+10;
     if(x==4)
-        s+10;
+        s=s+10;
 
     /*pergunta 16*/
     printf("Como voce passaria por uma porta trancada?\n\n");
@@ -275,13 +275,13 @@ int main(void)
 
     scanf("%d",&x);
     if(x==1)
-        g+10;
+        g=g+10;
     if(x==2)
-        h+10;
+        h=h+10;
     if(x==3)
-        r+10;
+        r=r+10;
     if(x==4)
-        s+10;
+        s=s+10;
 
     /*pergunta 17*/
     printf("Voce se considera uma pessoa que toma riscos?\n");
@@ -292,13 +292,13 @@ int main(void)
    
     scanf("%d",&x);
     if(x==1)
-        g+10;
+        g=g+10;
     if(x==2)
-        h+10;
+        h=h+10;
     if(x==3)
-        r+10;
+        r=r+10;
     if(x==4)
-        s+10;
+        s=s+10;
 
     /*fim do questionario*/
     if(g > (r && h && s))
