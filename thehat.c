@@ -322,6 +322,7 @@ int main(void)
     if(s > (g && h && r))
     {
         printf("Voce foi sortido(a) para SLYTHERIN!\n\n");
+        printf("\"Or perhaps in Slytherin,\nYou'll make your real friends,\nThose cunning folk use any means,\nTo achieve their ends.\"\n");
     }    
 
 }
