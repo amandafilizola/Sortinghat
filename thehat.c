@@ -5,7 +5,7 @@ The Sorting Hat
 
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <conio.c>
 int main(void)
 {
     int x,g=0,s=0,r=0,h=0;
