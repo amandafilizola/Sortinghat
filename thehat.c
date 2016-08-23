@@ -2,7 +2,7 @@
 Autora: Amanda de Paiva Filizola
 The Sorting Hat
 */
-
+#define DEBUG 1
 #include <stdio.h>
 #include <stdlib.h>
 int main(void)
@@ -437,5 +437,7 @@ int main(void)
             printf("Voce foi sortido(a) para RAVENCLAW!\n\n");
             printf("\"On wise old Ravenclaw,\nIf you've a ready mind,\nWhere those of wit and learning,\nWill always find their kind.\"\n\n");
         }      
-    }             
+    }
+    if(DEBUG==1)
+        printf("Pontos das Casas:\nGriffyndor:%d\nHufleppuff:%d\nRavenclaw:%d\nSlytherin:%d\n",g,h,r,s);
 }
