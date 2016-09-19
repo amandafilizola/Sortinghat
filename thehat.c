@@ -18,7 +18,7 @@ int main(void)
     printf("3.Inteligencia e criatividade.\n");
     printf("4.Astúcia e determinacao.\n");
     scanf("%d",&x);
-    while(1>x>4)
+    while(x<1 || x>4)
     {
         printf("Resposta inválida. Insira 1,2,3 ou 4");
         scanf("%d",&x);
@@ -39,7 +39,7 @@ int main(void)
     printf("3.Aproveitar tudo que a escola oferece e estudar bastante.\n");
     printf("4.Exibir o material novo e minhas roupas novas para meus amigos(as).\n");
     scanf("%d",&x);
-    while(1>x>4)
+    while(x<1 || x>4)
     {
         printf("Resposta inválida. Insira 1,2,3 ou 4");
         scanf("%d",&x);
@@ -60,7 +60,7 @@ int main(void)
     printf("3.Talvez. A pessoa so precisa ter as qualidades certas e nao ser apenas perda do meu tempo.\n");
     printf("4.Talvez. Um bom jeito de comecar e me pedir ajuda com atividades que sou bom.\n");
     scanf("%d",&x);
-    while(1>x>4)
+    while(x<1 || x>4)
     {
         printf("Resposta inválida. Insira 1,2,3 ou 4");
         scanf("%d",&x);
@@ -82,7 +82,7 @@ int main(void)
     printf("4.Nao.O que vem de baixo nao pode me atingir.\n");
   
     scanf("%d",&x);
-    while(1>x>4)
+    while(x<1 || x>4)
     {
         printf("Resposta inválida. Insira 1,2,3 ou 4");
         scanf("%d",&x);
@@ -104,7 +104,7 @@ int main(void)
     printf("4.Ignoro-o a principio. Se ele valer a pena, me aproximo.\n");
 
     scanf("%d",&x);
-    while(1>x>4)
+    while(x<1 || x>4)
     {
         printf("Resposta inválida. Insira 1,2,3 ou 4");
         scanf("%d",&x);
@@ -126,7 +126,7 @@ int main(void)
     printf("4.Algo que pessoas comuns precisam fazer para ganhar a vida.\n");
 
     scanf("%d",&x);
-    while(1>x>4)
+    while(x<1 || x>4)
     {
         printf("Resposta inválida. Insira 1,2,3 ou 4");
         scanf("%d",&x);
@@ -148,7 +148,7 @@ int main(void)
     printf("4.Um empresário de sucesso com muito dinheiro.\n");
 
     scanf("%d",&x);
-    while(1>x>4)
+    while(x<1 || x>4)
     {
         printf("Resposta inválida. Insira 1,2,3 ou 4");
         scanf("%d",&x);
@@ -170,7 +170,7 @@ int main(void)
     printf("4.Uma heranca de familia preciosa de geracoes.\n");
   
     scanf("%d",&x);
-    while(1>x>4)
+    while(x<1 || x>4)
     {
         printf("Resposta inválida. Insira 1,2,3 ou 4");
         scanf("%d",&x);
@@ -192,7 +192,7 @@ int main(void)
     printf("4.Pega carteira e anda pela area perguntando se alguem perdeu a carteira recentemente.\n");
 
     scanf("%d",&x);
-    while(1>x>4)
+    while(x<1 || x>4)
     {
         printf("Resposta inválida. Insira 1,2,3 ou 4");
         scanf("%d",&x);
@@ -214,7 +214,7 @@ int main(void)
     printf("4.Explica a crianca que nao pegou o brinquedo e avisa para deixa-lo em paz.\n");
     
     scanf("%d",&x);
-    while(1>x>4)
+    while(x<1 || x>4)
     {
         printf("Resposta inválida. Insira 1,2,3 ou 4");
         scanf("%d",&x);
@@ -235,7 +235,7 @@ int main(void)
     printf("3.Talvez eu entre para dar uma espiada. Nao pode machucar ne?\n");
     
     scanf("%d",&x);
-    while(1>x>3)
+    while(x<1 || x>3)
     {
         printf("Resposta inválida. Insira 1,2 ou 3");
         scanf("%d",&x);
@@ -258,7 +258,7 @@ int main(void)
     printf("4.Lhe da a comida e o segue para a casa dele depois para se vingar fazendo algo bem desagradavel!\n");
     
     scanf("%d",&x);
-    while(1>x>4)
+    while(x<1 || x>4)
     {
         printf("Resposta inválida. Insira 1,2,3 ou 4");
         scanf("%d",&x);
@@ -280,7 +280,7 @@ int main(void)
     printf("5.Usa o dinheiro para montar um negocio proprio.\n");
  
     scanf("%d",&x);
-    while(1>x>5)
+    while(x<1 || x>5)
     {
         printf("Resposta inválida. Insira 1,2,3,4 ou 5");
         scanf("%d",&x);
@@ -307,7 +307,7 @@ int main(void)
     printf("5.Dedicarei o tempo que precisar para isso. Pensarei em modos criativos de resolver esse problema.\n");
     
     scanf("%d",&x);
-    while(1>x>5)
+    while(x<1 || x>5)
     {
         printf("Resposta inválida. Insira 1,2,3,4 ou 5");
         scanf("%d",&x);
@@ -331,7 +331,7 @@ int main(void)
     printf("4.Eu o salvaria, com a condicao que ele me pagasse o que me deve.\n");                  
     
     scanf("%d",&x);
-    while(1>x>4)
+    while(x<1 || x>4)
     {
         printf("Resposta inválida. Insira 1,2,3 ou 4");
         scanf("%d",&x);
@@ -353,7 +353,7 @@ int main(void)
     printf("4.Procuraria a chave.\n");
 
     scanf("%d",&x);
-    while(1>x>4)
+    while(x<1 || x>4)
     {
         printf("Resposta inválida. Insira 1,2,3 ou 4");
         scanf("%d",&x);
@@ -375,7 +375,7 @@ int main(void)
     printf("4.Apenas se valer a recompensa.\n");
    
     scanf("%d",&x);
-    while(1>x>4)
+    while(x<1 || x>4)
     {
         printf("Resposta inválida. Insira 1,2,3 ou 4");
         scanf("%d",&x);
