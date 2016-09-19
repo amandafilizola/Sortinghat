@@ -20,7 +20,7 @@ int main(void)
     scanf("%d",&x);
     while(x<1 || x>4)
     {
-        printf("Resposta inválida. Insira 1,2,3 ou 4");
+        printf("Resposta inválida. Insira 1,2,3 ou 4\n");
         scanf("%d",&x);
     }    
     if(x==1)
@@ -41,7 +41,7 @@ int main(void)
     scanf("%d",&x);
     while(x<1 || x>4)
     {
-        printf("Resposta inválida. Insira 1,2,3 ou 4");
+        printf("Resposta inválida. Insira 1,2,3 ou 4\n");
         scanf("%d",&x);
     }    
     if(x==1)
@@ -62,7 +62,7 @@ int main(void)
     scanf("%d",&x);
     while(x<1 || x>4)
     {
-        printf("Resposta inválida. Insira 1,2,3 ou 4");
+        printf("Resposta inválida. Insira 1,2,3 ou 4\n");
         scanf("%d",&x);
     }    
     if(x==1)
@@ -84,7 +84,7 @@ int main(void)
     scanf("%d",&x);
     while(x<1 || x>4)
     {
-        printf("Resposta inválida. Insira 1,2,3 ou 4");
+        printf("Resposta inválida. Insira 1,2,3 ou 4\n");
         scanf("%d",&x);
     }    
     if(x==1)
@@ -106,7 +106,7 @@ int main(void)
     scanf("%d",&x);
     while(x<1 || x>4)
     {
-        printf("Resposta inválida. Insira 1,2,3 ou 4");
+        printf("Resposta inválida. Insira 1,2,3 ou 4\n");
         scanf("%d",&x);
     }    
     if(x==1)
@@ -128,7 +128,7 @@ int main(void)
     scanf("%d",&x);
     while(x<1 || x>4)
     {
-        printf("Resposta inválida. Insira 1,2,3 ou 4");
+        printf("Resposta inválida. Insira 1,2,3 ou 4\n");
         scanf("%d",&x);
     }    
     if(x==1)
@@ -150,7 +150,7 @@ int main(void)
     scanf("%d",&x);
     while(x<1 || x>4)
     {
-        printf("Resposta inválida. Insira 1,2,3 ou 4");
+        printf("Resposta inválida. Insira 1,2,3 ou 4\n");
         scanf("%d",&x);
     }    
     if(x==1)
@@ -172,7 +172,7 @@ int main(void)
     scanf("%d",&x);
     while(x<1 || x>4)
     {
-        printf("Resposta inválida. Insira 1,2,3 ou 4");
+        printf("Resposta inválida. Insira 1,2,3 ou 4\n");
         scanf("%d",&x);
     }    
     if(x==1)
@@ -194,7 +194,7 @@ int main(void)
     scanf("%d",&x);
     while(x<1 || x>4)
     {
-        printf("Resposta inválida. Insira 1,2,3 ou 4");
+        printf("Resposta inválida. Insira 1,2,3 ou 4\n");
         scanf("%d",&x);
     }    
     if(x==4)
@@ -216,7 +216,7 @@ int main(void)
     scanf("%d",&x);
     while(x<1 || x>4)
     {
-        printf("Resposta inválida. Insira 1,2,3 ou 4");
+        printf("Resposta inválida. Insira 1,2,3 ou 4\n");
         scanf("%d",&x);
     }    
     if(x==1)
@@ -237,7 +237,7 @@ int main(void)
     scanf("%d",&x);
     while(x<1 || x>3)
     {
-        printf("Resposta inválida. Insira 1,2 ou 3");
+        printf("Resposta inválida. Insira 1,2 ou 3\n");
         scanf("%d",&x);
     }    
     if(x==1)
@@ -260,7 +260,7 @@ int main(void)
     scanf("%d",&x);
     while(x<1 || x>4)
     {
-        printf("Resposta inválida. Insira 1,2,3 ou 4");
+        printf("Resposta inválida. Insira 1,2,3 ou 4\n");
         scanf("%d",&x);
     }    
     if(x==1)
@@ -282,7 +282,7 @@ int main(void)
     scanf("%d",&x);
     while(x<1 || x>5)
     {
-        printf("Resposta inválida. Insira 1,2,3,4 ou 5");
+        printf("Resposta inválida. Insira 1,2,3,4 ou 5\n");
         scanf("%d",&x);
     }    
     if(x==1)
@@ -309,7 +309,7 @@ int main(void)
     scanf("%d",&x);
     while(x<1 || x>5)
     {
-        printf("Resposta inválida. Insira 1,2,3,4 ou 5");
+        printf("Resposta inválida. Insira 1,2,3,4 ou 5\n");
         scanf("%d",&x);
     }    
     if(x==1)
@@ -333,7 +333,7 @@ int main(void)
     scanf("%d",&x);
     while(x<1 || x>4)
     {
-        printf("Resposta inválida. Insira 1,2,3 ou 4");
+        printf("Resposta inválida. Insira 1,2,3 ou 4\n");
         scanf("%d",&x);
     }    
     if(x==1)
@@ -355,7 +355,7 @@ int main(void)
     scanf("%d",&x);
     while(x<1 || x>4)
     {
-        printf("Resposta inválida. Insira 1,2,3 ou 4");
+        printf("Resposta inválida. Insira 1,2,3 ou 4\n");
         scanf("%d",&x);
     }    
     if(x==1)
@@ -377,7 +377,7 @@ int main(void)
     scanf("%d",&x);
     while(x<1 || x>4)
     {
-        printf("Resposta inválida. Insira 1,2,3 ou 4");
+        printf("Resposta inválida. Insira 1,2,3 ou 4\n");
         scanf("%d",&x);
     }    
     if(x==1)
