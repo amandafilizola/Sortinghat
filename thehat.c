@@ -5,7 +5,17 @@ The Sorting Hat
 #define DEBUG 1
 #include <stdio.h>
 #include <stdlib.h>
-int main(void)
+#include <unistd.h>
+
+#define ANSI_COLOR_RED     "\x1b[31m"
+#define ANSI_COLOR_GREEN   "\x1b[32m"
+#define ANSI_COLOR_YELLOW  "\x1b[33m"
+#define ANSI_COLOR_BLUE    "\x1b[34m"
+#define ANSI_COLOR_MAGENTA "\x1b[35m"
+#define ANSI_COLOR_CYAN    "\x1b[36m"
+#define ANSI_COLOR_RESET   "\x1b[0m"
+
+ main(void)
 {
     int x,g=0,s=0,r=0,h=0;
     printf("Voce esta comecando o questionario para determinar sua Casa. Responda o mais honestamente possivel, pois do contrario, recebera uma Casa na qual nao se encaixa.\nDigite o numero da resposta escolhida e pressione <enter>.");
