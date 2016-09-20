@@ -15,7 +15,7 @@ The Sorting Hat
 #define ANSI_COLOR_CYAN    "\x1b[36m"
 #define ANSI_COLOR_RESET   "\x1b[0m"
 
- main(void)
+int main(void)
 {
     int x,g=0,s=0,r=0,h=0;
     printf("Voce esta comecando o questionario para determinar sua Casa. Responda o mais honestamente possivel, pois do contrario, recebera uma Casa na qual nao se encaixa.\nDigite o numero da resposta escolhida e pressione <enter>.");
@@ -403,26 +403,26 @@ The Sorting Hat
     /*processamento*/
     if(g > r && g > h && g > s)
     {   
-        printf("Voce foi sortido(a) para GRYFFINDOR!\n\n");
-        printf("\"You might belong in Gryffindor,\nWhere dwell the brave at heart,\nTheir daring, nerve, and chivalry\nSet Gryffindors apart.\"\n\n");
+        printf(ANSI_COLOR_RED"Voce foi sortido(a) para GRYFFINDOR!\n\n");
+        printf(ANSI_COLOR_RED"\"You might belong in Gryffindor,\nWhere dwell the brave at heart,\nTheir daring, nerve, and chivalry\nSet Gryffindors apart.\"\n\n");
     }
     else
         if(h > g && h > r && h > s) 
         {
-            printf("Voce foi sortido(a) para HUFFLEPUFF!\n\n"); 
-            printf("\"You might belong in Hufflepuff,\nWhere they are just and loyal,\nThose patient Hufflepuffs are true,\nAnd unafraid of toil.\"\n\n");
+            printf(ANSI_COLOR_YELLOW"Voce foi sortido(a) para HUFFLEPUFF!\n\n"); 
+            printf(ANSI_COLOR_YELLOW"\"You might belong in Hufflepuff,\nWhere they are just and loyal,\nThose patient Hufflepuffs are true,\nAnd unafraid of toil.\"\n\n");
         }
         else
             if(r > g && r > h && r > s)
             {
-                printf("Voce foi sortido(a) para RAVENCLAW!\n\n");
-                printf("\"On wise old Ravenclaw,\nIf you've a ready mind,\nWhere those of wit and learning,\nWill always find their kind.\"\n\n");
+                printf(ANSI_COLOR_BLUE"Voce foi sortido(a) para RAVENCLAW!\n\n");
+                printf(ANSI_COLOR_BLUE"\"On wise old Ravenclaw,\nIf you've a ready mind,\nWhere those of wit and learning,\nWill always find their kind.\"\n\n");
             }    
             else
                 if(s > g && s > h && s > r)
                 {
-                    printf("Voce foi sortido(a) para SLYTHERIN!\n\n");
-                    printf("\"Perhaps in Slytherin,\nYou'll make your real friends,\nThose cunning folk use any means,\nTo achieve their ends.\"\n\n");
+                    printf(ANSI_COLOR_GREEN"Voce foi sortido(a) para SLYTHERIN!\n\n");
+                    printf(ANSI_COLOR_GREEN"\"Perhaps in Slytherin,\nYou'll make your real friends,\nThose cunning folk use any means,\nTo achieve their ends.\"\n\n");
                 }    
     /*começo do hatstall*/
     if(g==h && g > r && g > s)
