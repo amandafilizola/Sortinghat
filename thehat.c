@@ -476,7 +476,7 @@ int main(void)
         else  
         {
             printf(ANSI_COLOR_BLUE"Voce foi sortido(a) para RAVENCLAW!\n\n");
-            printf("\"On wise old Ravenclaw,\nIf you've a ready mind,\nWhere those of wit and learning,\nWill always find their kind.\"\n\n");
+            printf(ANSI_COLOR_BLUE"\"On wise old Ravenclaw,\nIf you've a ready mind,\nWhere those of wit and learning,\nWill always find their kind.\"\n\n");
         }    
     }    
     if(h==r && h > g && h > s)
