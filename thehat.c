@@ -434,13 +434,13 @@ int main(void)
         scanf("%d",&x);
         if(x==1)
         {   
-            printf("Voce foi sortido(a) para GRYFFINDOR!\n\n");
-            printf("\"You might belong in Gryffindor,\nWhere dwell the brave at heart,\nTheir daring, nerve, and chivalry\nSet Gryffindors apart.\"\n\n");
+            printf(ANSI_COLOR_RED"Voce foi sortido(a) para GRYFFINDOR!\n\n");
+            printf(ANSI_COLOR_RED"\"You might belong in Gryffindor,\nWhere dwell the brave at heart,\nTheir daring, nerve, and chivalry\nSet Gryffindors apart.\"\n\n");
         }
         else
         {
-            printf("Voce foi sortido(a) para HUFFLEPUFF!\n\n"); 
-            printf("\"You might belong in Hufflepuff,\nWhere they are just and loyal,\nThose patient Hufflepuffs are true,\nAnd unafraid of toil.\"\n\n");
+            printf(ANSI_COLOR_YELLOW"Voce foi sortido(a) para HUFFLEPUFF!\n\n"); 
+            printf(ANSI_COLOR_YELLOW"\"You might belong in Hufflepuff,\nWhere they are just and loyal,\nThose patient Hufflepuffs are true,\nAnd unafraid of toil.\"\n\n");
         }
     }    
     if(g==s && g > r && g > h)
@@ -452,13 +452,13 @@ int main(void)
         scanf("%d",&x);
         if(x==1)
         {
-            printf("Voce foi sortido(a) para GRYFFINDOR!\n\n");
-            printf("\"You might belong in Gryffindor,\nWhere dwell the brave at heart,\nTheir daring, nerve, and chivalry\nSet Gryffindors apart.\"\n\n");
+            printf(ANSI_COLOR_RED"Voce foi sortido(a) para GRYFFINDOR!\n\n");
+            printf(ANSI_COLOR_RED"\"You might belong in Gryffindor,\nWhere dwell the brave at heart,\nTheir daring, nerve, and chivalry\nSet Gryffindors apart.\"\n\n");
         }    
         else
         {
-            printf("Voce foi sortido(a) para SLYTHERIN!\n\n");
-            printf("\"Perhaps in Slytherin,\nYou'll make your real friends,\nThose cunning folk use any means,\nTo achieve their ends.\"\n\n");
+            printf(ANSI_COLOR_GREEN"Voce foi sortido(a) para SLYTHERIN!\n\n");
+            printf(ANSI_COLOR_GREEN"\"Perhaps in Slytherin,\nYou'll make your real friends,\nThose cunning folk use any means,\nTo achieve their ends.\"\n\n");
         }    
     }
     if(g==r && g > h && g > s)
@@ -470,12 +470,12 @@ int main(void)
         scanf("%d",&x);
         if(x==1)
         {
-            printf("Voce foi sortido(a) para GRYFFINDOR!\n\n");
-            printf("\"You might belong in Gryffindor,\nWhere dwell the brave at heart,\nTheir daring, nerve, and chivalry\nSet Gryffindors apart.\"\n\n");
+            printf(ANSI_COLOR_RED"Voce foi sortido(a) para GRYFFINDOR!\n\n");
+            printf(ANSI_COLOR_RED"\"You might belong in Gryffindor,\nWhere dwell the brave at heart,\nTheir daring, nerve, and chivalry\nSet Gryffindors apart.\"\n\n");
         }    
         else  
         {
-            printf("Voce foi sortido(a) para RAVENCLAW!\n\n");
+            printf(ANSI_COLOR_BLUE"Voce foi sortido(a) para RAVENCLAW!\n\n");
             printf("\"On wise old Ravenclaw,\nIf you've a ready mind,\nWhere those of wit and learning,\nWill always find their kind.\"\n\n");
         }    
     }    
@@ -488,13 +488,13 @@ int main(void)
         scanf("%d",&x);
         if(x==1)
         {
-            printf("Voce foi sortido(a) para HUFFLEPUFF!\n\n"); 
-            printf("\"You might belong in Hufflepuff,\nWhere they are just and loyal,\nThose patient Hufflepuffs are true,\nAnd unafraid of toil.\"\n\n");
+            printf(ANSI_COLOR_YELLOW"Voce foi sortido(a) para HUFFLEPUFF!\n\n"); 
+            printf(ANSI_COLOR_YELLOW"\"You might belong in Hufflepuff,\nWhere they are just and loyal,\nThose patient Hufflepuffs are true,\nAnd unafraid of toil.\"\n\n");
         }   
         else
         {
-            printf("Voce foi sortido(a) para RAVENCLAW!\n\n");
-            printf("\"On wise old Ravenclaw,\nIf you've a ready mind,\nWhere those of wit and learning,\nWill always find their kind.\"\n\n");
+            printf(ANSI_COLOR_BLUE"Voce foi sortido(a) para RAVENCLAW!\n\n");
+            printf(ANSI_COLOR_BLUE"\"On wise old Ravenclaw,\nIf you've a ready mind,\nWhere those of wit and learning,\nWill always find their kind.\"\n\n");
         }    
     }    
     if(h==s && h > g && h > r)
@@ -506,13 +506,13 @@ int main(void)
         scanf("%d",&x);
         if(x==1)
         {
-            printf("Voce foi sortido(a) para HUFFLEPUFF!\n\n"); 
-            printf("\"You might belong in Hufflepuff,\nWhere they are just and loyal,\nThose patient Hufflepuffs are true,\nAnd unafraid of toil.\"\n\n");
+            printf(ANSI_COLOR_YELLOW"Voce foi sortido(a) para HUFFLEPUFF!\n\n"); 
+            printf(ANSI_COLOR_YELLOW"\"You might belong in Hufflepuff,\nWhere they are just and loyal,\nThose patient Hufflepuffs are true,\nAnd unafraid of toil.\"\n\n");
         }    
         else
         {
-            printf("Voce foi sortido(a) para SLYTHERIN!\n\n");
-            printf("\"Perhaps in Slytherin,\nYou'll make your real friends,\nThose cunning folk use any means,\nTo achieve their ends.\"\n\n");
+            printf(ANSI_COLOR_GREEN"Voce foi sortido(a) para SLYTHERIN!\n\n");
+            printf(ANSI_COLOR_GREEN"\"Perhaps in Slytherin,\nYou'll make your real friends,\nThose cunning folk use any means,\nTo achieve their ends.\"\n\n");
         }    
     }
     if(r==s && r > g && r > h)
@@ -524,13 +524,13 @@ int main(void)
         scanf("%d",&x);
         if(x==1)
         {
-            printf("Voce foi sortido(a) para SLYTHERIN!\n\n");
-            printf("\"Perhaps in Slytherin,\nYou'll make your real friends,\nThose cunning folk use any means,\nTo achieve their ends.\"\n\n");
+            printf(ANSI_COLOR_GREEN"Voce foi sortido(a) para SLYTHERIN!\n\n");
+            printf(ANSI_COLOR_GREEN"\"Perhaps in Slytherin,\nYou'll make your real friends,\nThose cunning folk use any means,\nTo achieve their ends.\"\n\n");
         }
         else
         {
-            printf("Voce foi sortido(a) para RAVENCLAW!\n\n");
-            printf("\"On wise old Ravenclaw,\nIf you've a ready mind,\nWhere those of wit and learning,\nWill always find their kind.\"\n\n");
+            printf(ANSI_COLOR_BLUE"Voce foi sortido(a) para RAVENCLAW!\n\n");
+            printf(ANSI_COLOR_BLUE"\"On wise old Ravenclaw,\nIf you've a ready mind,\nWhere those of wit and learning,\nWill always find their kind.\"\n\n");
         }      
     }
     if(DEBUG==1)
